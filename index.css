@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap);
+body{
+    background-color: #0F163D;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-family: Poppins;
+    color: white;
+}
+.glass{
+    filter: blur(120px);
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 82px;
+    background-color: #ffffff25;
+    width: 740px;
+    height: 728px;
+    z-index: -2;
+}
+.glass-container{
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 82px;
+    background-color: #ffffff39;
+    width: 740px;
+    height: 728px;
+    backdrop-filter: blur(47.5px);
+    z-index: 1;
+  }
+img{
+    margin-top: 45px;
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-bottom: 12px;
+    background: url(assets/tech-bee-white.png),;
+    widows: rgba(0, 0, 0, 0.86);
+}
+#age_container{
+    width: 444px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    font-size: 25px;
+    font-family: Poppins;
+    text-align: center;
+}
+input::placeholder {
+    color:#9f9f9f;
+    font-family: Poppins;
+    text-align: left;
+}
+.button{
+    margin-left: 25%;
+    margin-right: 49%;
+    margin-top: 22px;
+    display: block;
+    justify-content: center;
+    width: 242px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #90B4FA;
+    font-family: Poppins;
+    font-size: larger;
+    font-weight: 300;
+}
+.button:hover{
+    background: #ffff;
+    transition: 500ms;
+}
+
+.output{
+    margin-left: auto;
+    margin-right: 49%;
+    margin-top: 22px;
+    display: block;
+    justify-content: center;
+    width: 444px;
+    height: 155px;
+    border-radius: 18px;
+    background: #ffffff;
+    font-family: Poppins;
+    font-size: larger;
+    font-weight: 300;
+    text-align:center;
+    place-items: center;
+}
